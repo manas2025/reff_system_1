@@ -8,7 +8,7 @@ const moment = require('moment');
 const db = mysql.createConnection({
     host: process.env.host,
     user: process.env.user,
-    password: process.env.pss,
+    password: process.env.pass,
     database: process.env.DATABASE
 });
 
